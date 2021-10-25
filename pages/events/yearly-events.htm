@@ -1,0 +1,30 @@
+title = "Yearly Events"
+url = "/events/yearly-events"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[siteSearchInclude]
+
+[contenteditor]
+==
+<div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/events/eventshd.jpg'|theme }}" alt="classes"></div>{% partial 'breadcrumbs/breadcrumbsclasses' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+
+			{% component 'contenteditor' file="events/yearlyevents.htm" %}
+
+                <div class="clear"></div>
+
+            </div><!-- col-md-8 left-inner -->
+        </div><!-- End Row -->
+
+
+    </div><!-- End Container Content -->

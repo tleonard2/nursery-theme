@@ -1,0 +1,151 @@
+title = "October Gardening Tips"
+url = "/seasonal-tips/october"
+layout = "default"
+meta_title = "October Gardening at Portland Nursery and Garden Center."
+meta_description = "October Gardening at Portland Nursery and Garden Center in Portland, Vancouver, Lake Oswego."
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[siteSearchInclude]
+
+[contenteditor]
+==
+<div class="container seasonalpage">
+    <div class="title-block">
+        <div class="title-image"><img class="img-responsive" title="October Tips" src="{{ 'assets/images/tips/octoberhd.jpg'|theme }}" alt="Fall"></div>{% partial 'breadcrumbs/breadcrumbsseasonal' %}
+    </div>
+</div><!-- container -->
+
+<div class="seasonal container content">
+    <div class="row">
+        <div class="col-md-12 left-inner">
+            <div class="row">
+                <div class="col-md-6">
+
+                    {% component 'contenteditor' file="october-tips/intro.htm" %}
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="wow fadeInDown">
+                        <div class="accordion">
+                            <div class="panel-group" id="accordion1">
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading active">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+
+                                                {% component 'contenteditor' file="october-tips/collapse1title.htm" %}
+
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseOne1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse1.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+
+                                                {% component 'contenteditor' file="october-tips/collapse2title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseTwo1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse2.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+
+                                                {% component 'contenteditor' file="october-tips/collapse3title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseThree1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse3.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+
+                                                {% component 'contenteditor' file="october-tips/collapse4title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseFour1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="october-tips/collapse4.htm" %}
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--/#accordion1-->
+                        </div> <!-- accordion -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+
+            <div class="row planttable">
+                <div class="col-md-6">
+
+                    {% component 'contenteditor' file="october-tips/row1column1.htm" %}
+
+                </div>
+
+                <div class="col-md-6">
+
+                    {% component 'contenteditor' file="october-tips/row1column2.htm" %}
+
+                </div>
+            </div> <!-- row -->
+
+            <div class="row planttable">
+                <div class="col-md-6">
+
+                    {% component 'contenteditor' file="october-tips/row2column1.htm" %}
+
+                </div>
+
+                <div class="col-md-6">
+
+                    {% component 'contenteditor' file="october-tips/row2column2.htm" %}
+
+                </div>
+            </div> <!-- row -->
+        </div><!--/.col-md-12 -->
+    </div><!-- End Row -->
+
+    <div class="row" id="portfolio">
+        {% partial "lists/list-seasonaltips" %}
+    </div><!--/#portfolio-->
+</div><!-- End Container Content -->

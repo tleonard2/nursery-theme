@@ -1,0 +1,90 @@
+title = "Ferns"
+url = "/ferns/"
+layout = "default"
+is_hidden = 0
+meta_title = "Ferns at Portland Nursery"
+meta_description = "A full range of Ferns for Portland, Vancouver"
+
+[siteSearchInclude]
+==
+    <div class="container">
+        <div class="title-block">
+             <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/ferns/fernshd.jpg'|theme }}"  alt="ferns" title="ferns" /></div>
+             {% partial 'breadcrumbs/breadcrumbsplants' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 left-inner">
+                <p>For us avid gardeners in the Pacific NW, where our damp winters create perfect climates for ferns, it is hard to imagine any garden without them.</p>
+
+                <p>On hikes in the Columbia River Gorge, it is the ferns growing out of a rotting log, on the side of a living trunk, or on a stone cliff face near a waterfall, that make me feel at home and deeply cared for. Ferns do not flower and may rarely be the specimen centerpieces of the home garden, but they are often responsible for the difference between a garden I want to look at from a window and a garden I want to hang out in.</p>
+
+           </div><!-- col-md-6 left-inner -->
+
+            <div class="col-md-6">
+                <div class="wow fadeInDown">
+                    <div class="accordion">
+<!--                         <h2>Tree Planting Tips</h2> -->
+
+                        <div class="panel-group" id="accordion1">
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading active">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                 Native Ferns
+                                  <i class="fa  fa-angle-down pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+
+                            <div id="collapseOne1" class="panel-collapse collapse in">
+                              <div class="panel-body">
+
+                                           <figure class="pull-left"><img class="img-responsive" src="{{ '/assets/images/ferns/nativefern.jpg'|theme }}" alt="ferns"></figure>
+	                             <p>We have a feature on native ferns that will help with addition of natives to your garden. <a href="/natives/ferns/">Visit our Native Fern page for details.</a> Native ferns are available year-round at the nursery.</p>
+	                             <p>Native ferns include: Sword Fern, Licorice Fern, Maidenhair Fern, Deer Fern, Giant Chain Fern and Lady Fern. </p>								     </div><!-- panel body -->
+                                  </div>
+                              </div>
+
+<!--
+                          <div class="panel panel-default">
+                            <div class="panel-heading active">
+                              <h3 class="panel-title">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                                  Shrubs for fragrance
+                                  <i class="fa  fa-angle-down pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+
+                            <div id="collapseTwo1" class="panel-collapse collapse">
+                              <div class="panel-body">
+
+                             <figure class="pull-left"><img class="img-responsive" src="{{ '/assets/images/shrubs/fragrance.jpg'|theme }}" alt="fragrant shrubs"></figure>
+
+											<p>&bull;  <a href="/shrubs/buddleia/">Buddleia</a></p>
+											<p>&bull;  <a href="/shrubs/clethra/">Clethra</a></p>
+											<p>&bull;  <a href="/shrubs/daphne/">Daphne</a></p>
+											<p>&bull;  <a href="/shrubs/edgeworthia/"> Edgeworthia</a></p>
+											<p>&bull;  <a href="/shrubs/gardenia/"> Gardenia</a></p>
+											<p>&bull;  <a href="/shrubs/hamamelis/"> Hamamelis </a></p>
+											<p>&bull;  <a href="/shrubs/sarococca/"> Sarcococca</a></p>
+											<p>&bull;  <a href="/shrubs/syringa/"> Syringa</a></p>
+                              </div>
+                              </div>
+                            </div>
+-->
+
+                        </div><!--/#accordion1-->
+                    </div><!-- accordion -->
+                </div>
+            </div><!--/.col-sm-6 tabs-->
+        </div><!-- End Row -->
+
+        <div class="row" id="portfolio">
+            {% partial "lists/list-ferns" %}
+        </div><!--/#portfolio-->
+    </div><!--=== End Container ===-->

@@ -1,0 +1,160 @@
+title = "Container of the Month"
+url = "/container-gardens/"
+layout = "default"
+meta_title = "Container Gardens Container of the Month at Portland Nursery"
+meta_description = "Container Garden recipes and solutions for Portland, Vancouver"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[siteSearchInclude]
+
+[contenteditor]
+==
+<div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/container-gardens/containerhd2.jpg'|theme }}" alt="Container of the Month"></div>{% partial 'breadcrumbs/breadcrumbsplants' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 left-inner">
+
+                {% component 'contenteditor' file="container-page/intro.htm" %}
+
+            </div><!-- col-md-6 left-inner -->
+
+            <div class="col-md-6">
+                <div class="wow fadeInDown">
+                    <div class="accordion">
+                        <div class="panel-group" id="accordion1">
+
+                           <div class="panel panel-default">
+                            <div class="panel-heading active">
+                              <h3 class="panel-title">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+
+                                 {% component 'contenteditor' file="container-page/collapse1title.htm" %}
+                                                                 
+                                  <i class="tips fa fa-angle-down pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseOne1" class="panel-collapse collapse in">
+                              <div class="panel-body">
+
+							  {% component 'contenteditor' file="container-page/collapse1.htm" %}
+
+                    		</div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+
+                                  {% component 'contenteditor' file="container-page/collapse2title.htm" %}
+                                  <i class="tips fa fa-angle-down pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseTwo1" class="panel-collapse collapse">
+                              <div class="panel-body">
+
+                               {% component 'contenteditor' file="container-page/collapse2.htm" %}
+                               
+	                         </div>
+                            </div>
+                          </div>
+
+                           <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+                                 
+                                  {% component 'contenteditor' file="container-page/collapse3title.htm" %}
+                                  <i class="tips fa fa-angle-down pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseThree1" class="panel-collapse collapse">
+                              <div class="panel-body">
+
+	                             {% component 'contenteditor' file="container-page/collapse3.htm" %}
+	                             
+    						</div>
+                            </div>
+                          </div>
+
+                       <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">
+                                  
+                                 {% component 'contenteditor' file="container-page/collapse4title.htm" %}
+                                  <i class="tips fa fa-angle-down pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseFive1" class="panel-collapse collapse">
+                              <div class="panel-body">
+
+	                             {% component 'contenteditor' file="container-page/collapse4.htm" %} 
+                              </div>
+                            </div>
+                          </div>
+
+<div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix1">
+                                 
+                                  {% component 'contenteditor' file="container-page/collapse5title.htm" %}
+                                  <i class="tips fa fa-angle-down pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseSix1" class="panel-collapse collapse">
+                              <div class="panel-body">
+
+	                                {% component 'contenteditor' file="container-page/collapse5.htm" %}
+                              </div>
+                            </div>
+                          </div>
+
+                        </div><!--/#accordion1-->
+                    </div> <!-- accordion -->
+                </div>
+
+                <figure><img class="img-responsive" src="{{ 'assets/images/container-gardens/container750.jpg'|theme }}" alt="Containers"></figure>
+            </div><!--/.col-sm-6 tabs-->
+        </div><!-- End Row -->
+
+        <div class="row">
+            <hr>
+
+            <div class="col-md-4">
+
+	            {% component 'contenteditor' file="container-page/column1.htm" %}
+
+            </div>
+
+            <div class="col-md-4">
+
+	            {% component 'contenteditor' file="container-page/column2.htm" %}
+
+            </div>
+
+            <div class="col-md-4">
+
+	           {% component 'contenteditor' file="container-page/column3.htm" %}
+                
+            </div>
+        </div>
+
+        <div class="row" id="portfolio">
+            {% partial "lists/list-containers" %}
+        </div><!--/#portfolio-->
+    </div><!-- End Container -->

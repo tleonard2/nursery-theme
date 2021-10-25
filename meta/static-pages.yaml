@@ -1,0 +1,6 @@
+static-pages:
+    plant-library:
+        plants-annuals:
+            plants-annuals-newplant: {  }
+    plants-annuals-datura: {  }
+    statichome: {  }

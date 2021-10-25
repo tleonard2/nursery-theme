@@ -1,0 +1,45 @@
+title = "Growing Green Thumbs"
+url = "/resources/podcast"
+layout = "default"
+meta_title = "Growing Green Thumbs: a Podcast for New Gardeners from Portland Nursery with garden center resources for all your gardening needs."
+meta_description = "Growing Green Thumbs: a Podcast for New Gardeners from Portland Nursery with garden center resources for all your gardening needs."
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[siteSearchInclude]
+
+[contenteditor]
+==
+<div class="container">
+        <div class="title-block">
+           <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/resources/podcasthd.jpg'|theme }}"  alt="Growing Green Thumbs: a Podcast for New Gardeners" title="Growing Green Thumbs: a Podcast for New Gardeners" />{% partial 'breadcrumbs/breadcrumbsresources' %}</div>
+            </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+	      <div class="col-md-12">
+
+            <div class="col-md-8">
+
+	            {% component 'contenteditor' file="resources/podcast.htm" %}
+
+			</div><!-- col-md-6 left -->
+
+			<div class="col-md-4">
+
+				 {% component 'contenteditor' file="resources/podcastside.htm" %}
+
+			</div><!-- col-md-6 right -->
+
+	      </div> <!-- end col 12 -->
+
+        </div><!-- End Row -->
+
+        <hr>
+
+       <div class="row" id="portfolio">
+            {% partial "lists/list-resources" %}
+        </div>
+    </div><!--=== End Container Content ===-->

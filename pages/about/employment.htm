@@ -1,0 +1,37 @@
+title = "Seasonal Employment"
+url = "/about/employment/"
+layout = "default"
+meta_title = "Jobs at Portland Nursery: plants, trees, houseplants, gardener gifts, garden tools."
+meta_description = "Employment with jobs at both Portland Nursery locations: plants, trees, houseplants, gardener gifts, garden tools."
+is_hidden = 0
+
+[siteSearchInclude]
+
+[contenteditor]
+==
+<div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/locations/employmenthd.jpg'|theme }}" alt="5050 SE Stark"></div>{% partial 'breadcrumbs/breadcrumbsabout' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-8 left-inner">
+
+			{% component 'contenteditor' file="employment/employment.htm" %}
+
+        </div><!-- col-md-8 left-inner -->
+
+        <div class="col-md-4">
+            <div class="sidebar pull-right">
+	           <figure> <img class="img-responsive" src="{{ 'assets/images/locations/employee.jpg'|theme }}" alt="Portland Nursery employment"/></figure>
+                <div class="treatment">
+
+	                {% component 'contenteditor' file="employment/employment-side.htm" %}
+
+                </div>
+            </div><!-- sidebar pull-right -->
+        </div><!-- col-md-4 -->
+    </div><!-- End Row -->
+    </div><!-- End Container Content -->

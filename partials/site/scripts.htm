@@ -1,0 +1,37 @@
+[viewBag]
+==
+
+$(function() {
+    var $masonry = $('.masonry').masonry();
+
+    $('.js-ajax').on('click', function() {
+        var data = $('.masonry').html();
+
+        // $masonry.push($(data).find('.item'));
+        $(data).find('.item').each(function() {
+            $masonry.push($(this));
+        });
+    });
+});
+
+<!-- Scripts -->
+<script type="text/javascript" src="{{ 'assets/js/html5shiv.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/respond.min.js'|theme }}"></script>
+
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+
+<script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+<script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+
+<script type="text/javascript" src="{{ 'assets/js/app.js'|theme }}"></script>
+
+<script type="text/javascript" src="{{ 'assets/js/jquery.min.js'|theme }}"></script>
+
+<script src="{{ 'assets/js/bootstrap.masonry.min.js'|theme }}"></script>
+
+
+{% framework extras %}
+{% scripts %}
