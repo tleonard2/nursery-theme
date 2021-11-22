@@ -11,7 +11,13 @@ robot_follow = "follow"
 ==
 <div class="container">
         <div class="title-block">
-            <div class="title-image"><img class="img-responsive" src="{{ 'assets/images/events/eventshd.jpg'|theme }}" alt="classes"></div>{% partial 'breadcrumbs/breadcrumbsclasses' %}
+            <div class="title-image">
+
+	            {% component 'contenteditor' file="events/yearly-banner.htm" %}
+
+	        </div>
+
+            {% partial 'breadcrumbs/breadcrumbsclasses' %}
         </div>
     </div><!-- container -->
 
