@@ -1,0 +1,64 @@
+title = "Living Holiday Trees"
+url = "/trees/holiday-trees/"
+layout = "default"
+description = ""
+meta_title = "Living Holiday Trees at Portland Nursery"
+meta_description = "Living Holiday Trees at Portland Nursery."
+is_hidden = 0
+
+[siteSearchInclude]
+
+[contenteditor]
+==
+    <div class="container">
+        <div class="title-block">
+            <div class="title-image"><img class="img-responsive" title="Container Trees" src="{{ 'assets/images/trees/holidaytreeshd.jpg'|theme }}" alt="Container Trees"></div>{% partial 'breadcrumbs/breadcrumbsplants' %}
+        </div>
+    </div><!-- container -->
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-6 left-inner">
+
+	             {% component 'contenteditor' file="holiday-trees/row1col1.htm" %}
+
+				<div class="treatment">
+				<h2>Living Holiday Trees</h2>
+				<h4>Want a copy of this article?<br><a href="https://portlandnursery.com/docs/trees/HolidayTrees.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Click to print.</a></h4>
+				</div>
+
+				{% component 'contenteditor' file="holiday-trees/row1col1a.htm" %}
+
+	</div><!-- col-md-6 left-inner -->
+
+      <div class="col-md-6">
+
+				<div class="treatment">
+
+					{% component 'contenteditor' file="holiday-trees/row1col2.htm" %}
+
+	</div>
+            </div>
+
+        </div><!-- End Row -->
+<hr>
+        <div class="row">
+
+	         <div class="col-md-6">
+
+		         {% component 'contenteditor' file="holiday-trees/row2col1.htm" %}
+
+            </div><!-- col-md-6 -->
+
+            <div class="col-md-6">
+
+	            {% component 'contenteditor' file="holiday-trees/row2col2.htm" %}
+
+            </div><!-- col-md-6 -->
+
+        </div><!-- End Row -->
+<hr>
+         <div class="row" id="portfolio">
+            {% partial "lists/list-conifers" %}
+        </div><!--/#portfolio-->
+    </div><!--=== End Container Content ===-->
