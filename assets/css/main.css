@@ -1,6 +1,6 @@
 /* Typography v2 versions final.1
 *******************************
-Revision December 2, 2021*/
+Revision August 27, 2021*/
 
 
 body {
@@ -224,16 +224,6 @@ p.btn-primary.shop {
 	font-size: 32px;
 	line-height: 1.4;
 	display: block
-}
-
-.col-md-6.btn-primary.shop {
-	max-width: 320px;
-	margin: 40px 60px;
-	height: auto;
-	padding: 20px;
-	font-size: 32px;
-	line-height: 1.4;
-	display: block;
 }
 
 /*
@@ -654,6 +644,33 @@ input.search-form:hover {
 	padding-bottom: 0;
 }
 
+@media (min-width:768px) {
+	.navbar {
+		border-radius:0px;
+	}
+}
+
+@media="all" {
+	.navbar>.container .navbar-brand {
+		margin-bottom: 5px;
+		margin-top: 0;
+		padding: 5px 0px;
+		height: 100px;
+	}
+
+	.navbar>.container .navbar-brand,
+	.navbar>.container-fluid .navbar-brand{
+		margin-left:0
+	}
+
+	.navbar-brand {
+		height:100px;
+		margin-bottom: 5px;
+		margin-top: 0;
+	}
+}
+
+
 .navbar-toggle {
 	background: #86c232;
 	margin-top: 30px
@@ -672,7 +689,6 @@ input.search-form:hover {
   display: inline-block;
   font-size: 18px
 }
-
 
 .navbar-inverse .navbar-nav > li > a:hover{
 	background-color: #D0E9C6;
@@ -744,12 +760,6 @@ input.search-form:hover {
   background-color: transparent;
 }
 
-@media (max-width:1290px) {
-	.navbar-inverse .navbar-nav li > a  {
-		margin-top: 0px;
-	}
-}
-
 @media (max-width:768px) {
 	.navbar-inverse .navbar-nav {
 		margin-left: 10px;
@@ -767,33 +777,6 @@ input.search-form:hover {
 		padding: 5px
 	}
 }
-
-@media (min-width:768px) {
-	.navbar {
-		border-radius:0px;
-	}
-}
-
-@media="all" {
-	.navbar>.container .navbar-brand {
-		margin-bottom: 5px;
-		margin-top: 0;
-		padding: 5px 0px;
-		height: 100px;
-	}
-
-	.navbar>.container .navbar-brand,
-	.navbar>.container-fluid .navbar-brand{
-		margin-left:0
-	}
-
-	.navbar-brand {
-		height:100px;
-		margin-bottom: 5px;
-		margin-top: 0;
-	}
-}
-
 
 /*************************
 *******Home Page******

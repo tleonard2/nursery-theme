@@ -4,6 +4,10 @@ layout = "default"
 is_hidden = 0
 meta_title = "September Gardening at Portland Nursery and Garden Center."
 meta_description = "September Gardening at Portland Nursery and Garden Center in Portland, Vancouver, Lake Oswego."
+
+[siteSearchInclude]
+
+[contenteditor]
 ==
     <div class="container seasonalpage">
         <div class="title-block">
@@ -11,132 +15,117 @@ meta_description = "September Gardening at Portland Nursery and Garden Center in
         </div>
     </div><!-- container -->
 
-    <div class="seasonal container content">
-        <div class="row">
-           <div class="col-md-12 left-inner">
+<div class="seasonal container content">
+    <div class="row">
+        <div class="col-md-12 left-inner">
+            <div class="row">
+                <div class="col-md-6">
 
-      <div class="row">
-	       <div class="col-md-6">
-			<p>September marks the beginning of the second planting season.</p>
+                    {% component 'contenteditor' file="september-tips/intro.htm" %}
 
-			<p>It's true – fall is for planting! The soil’s still warm, and that’ll provide for faster root growth and give plants a bit of a head start. By next summer, they’ll have larger, more established root systems that allow for improved drought tolerance and better growth throughout the first year. </p>
-
-			<p>Shorter autumnal days and mild temperatures mean lower stress on new plants, and the inevitable rains help keep those new plants watered-in—which means less work for you (and maybe a few extra days leftover to enjoy the hammock). </p>
-
-			<p>Fall is also a great time to shop for hardy plants! We’re always stocking up on conifers, winter-blooming shrubs and Pacific Northwest native plants this time of year. Fall favorites—like pansies, ornamental cabbages and kales, and overwintering vegetables and herbs—are all available here at Portland Nursery.</p>
-
-			<p>Some plants are borderline hardy for your area and may be challenged by the extreme cold—and because of that, they should be planted in the spring, and that will allow their roots to develop before freezing temperatures arrive.</p>
-
-			<p>In Portland it’s generally safe to plant anything that’s hardy to Zone 7 and below in autumn, but popular Zone 8 plants—like New Zealand flax (<em>Phormium</em>), star jasmine (<em>Trachelospermum jasminoides</em>) or hardy Gardenias—should wait until spring. </p>
-
-			<p>If you choose to install Zone 8 hardy plants in fall, you’ll need to develop a plan for protecting them during harsh winter weather events.</p>
-
-                </div><!-- col-md-6 left-inner -->
+                </div>
 
                 <div class="col-md-6">
-                   <div class="wow fadeInDown">
-                    <div class="accordion">
-<!--                         <h2>Tree Planting Tips</h2> -->
-                        <div class="panel-group" id="accordion1">
+                    <div class="wow fadeInDown">
+                        <div class="accordion">
+                            <div class="panel-group" id="accordion1">
 
-<!-- panel -->
-                          <div class="panel panel-default">
-                            <div class="panel-heading active">
-                              <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
-                                 September tips!
-                                  <i class="fa  fa-angle-down pull-right"></i>
-                                </a>
-                              </h3>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading active">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+
+                                                {% component 'contenteditor' file="september-tips/collapse1title.htm" %}
+
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseOne1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="september-tips/collapse1.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+
+                                                {% component 'contenteditor' file="september-tips/collapse2title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseTwo1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="september-tips/collapse2.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title tips">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+
+                                                {% component 'contenteditor' file="september-tips/collapse3title.htm" %}
+                                                <i class="tips fa fa-angle-down pull-right"></i>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapseThree1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            {% component 'contenteditor' file="september-tips/collapse3.htm" %}
+
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-
-                            <div id="collapseOne1" class="panel-collapse collapse in">
-                              <div class="panel-body">
-
-                            <figure><img class="img-responsive" src="{{ '/assets/images/tips/fallspiderweb750.jpg'|theme }}" alt="pruning"></figure>
-
-                                 <ul>
-                                    <li><a target="_blank" href="https://extension.oregonstate.edu/gardening/techniques/september-garden-calendar">September Gardening Tips from Oregon State University</a></li>
-                                    <li><a target="_blank" href="https://extension.oregonstate.edu/gardening/techniques/october-garden-calendar">October Gardening Tips from Oregon State University</a></li>
-                                     <li><a target="_blank" href="https://extension.oregonstate.edu/gardening/flowers-shrubs-trees/november-garden-calendar">November Gardening Tips from Oregon State University</a></li>
-							</ul>
-
-                                </div> <!-- panel body -->
-                                  </div>
-                              </div>
-<!-- panel -->
-
-                        </div><!--/#accordion1-->
-                    </div> <!-- accordion -->
+                            <!--/#accordion1-->
+                        </div> <!-- accordion -->
+                    </div>
                 </div>
-                </div>
-            </div>
+            </div> <!-- row -->
 
             <div class="row planttable">
                 <div class="col-md-6">
-                    <h3>Perennials and Annuals</h3>
 
-                    <p>Some of your summer annuals may be a bit tired looking or overgrown. In some cases a trim and a bit of water-soluble fertilizer will get you a few more weeks of bloom. Others should probably be discarded in favor of some new fall color. This means those annuals and short-lived perennials that look great now through autumn and often times into winter. Pansies, kale, dusty miller, mums, asters, and black-eyed-susans are all examples of this. There are plenty more flowers to enjoy; the growing season isn&rsquo;t over yet!</p>
+                    {% component 'contenteditor' file="september-tips/row1column1.htm" %}
 
-                    <p>As for perennials, the late-season flowers are in full swing and full stock on our shelves; asters, many daisy style plants, yarrow, and salvias are blooming nicely. The beginning to middle of autumn is one of the best times for planting assuming temperatures have cooled since summer. The majority of cold hardy perennials thrive with fall planting since their root systems can grow all winter and emerge in the spring ready to grow.</p>
-
-                    <p>If you have poorly drained soil you may want to wait until spring to plant perennials that require good drainage such as penstemon and lavender. Once the weather has cooled down, it is also a good time for dividing established perennials, though October is the more common month for that.</p>
-
-                    <p>Bulbs! It is finally that time again! Tulips, daffodils, hyacinths, alliums, crocus and many others are available for purchase starting in September. While refreshing those flowers beds and containers with some pansies or other fall color, add some spring flowering bulbs in there as an investment in next year&rsquo;s show.</p>
-
-                    <p>Some bulbs can also be grown in pots, often indoors, during the late autumn and winter. This is generally called forcing. The most common bulbs for this are paperwhites (Narcissus &lsquo;Zeva&rsquo;) and amaryllis. While they can be started as early as September, most people prefer to wait until October for amaryllis or November for paperwhites to try to match the bloom period to the holiday season. Other people start a few more paperwhites every week to extend the season of enjoyment.</p>
-
-                    <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/salvia/salvia750.jpg" alt="Salvia"></figure>
                 </div>
 
                 <div class="col-md-6">
-                    <h3>Vegetables</h3>
 
-                    <p>September is a good time for starting a fresh round of cool-season and overwintering crops. This includes lettuce, spinach, and other greens, as well as some cole crops such as broccoli and cauliflower. Short season root crops such as radishes can be grown now to harvest before winter, and overwintering roots such as garlic and onions can be planted.</p>
+                    {% component 'contenteditor' file="september-tips/row1column2.htm" %}
 
-                    <p>Just as importantly, its harvest time for those warm season crops! Here are some tips on harvesting different groups of vegetables:</p>
-
-                    <ul>
-                        <li><strong>Melons</strong> &ndash; Most melons will detach from the vine with pressure from just one finger when ripe. And melons do not continue to ripen off the vine, so be careful not to harvest too early!</li>
-
-                        <li><strong>Squash</strong> &ndash; Summer Squash are best harvested while still on the small side, because not only is the flavor better, but if left on the plant a long time it begins seed formation and reduces further fruit set. A Winter Squash is completely mature when the stem is brown and shriveled. But usually our summers don't last long enough for that to occur; to optimize harvest, you can remove the very smallest squash and any new ones from the vine after September 1st, in order to allow the plant to put the remainder of its energy into ripening the larger fruit. Harvest before powdery mildew or a first frost has destroyed the leaves, and wipe the skin with a disinfecting bleach solution. Cure the skins by letting the squash air dry at room temperature for a week or so, then store them at about 55&#176; and low humidity for longest keeping.</li>
-
-                        <li><strong>Eggplant</strong> &ndash; Best if picked when slightly immature &ndash; when the fruit has stopped rapidly enlarging, but the skin is still shiny and thin. Fruit set stops a week or two before the autumnal equinox, and this is when all developed fruit should be harvested. Smaller fruit may continue on to ripeness if the early days of October are sufficiently warm.</li>
-
-                        <li><strong>Peppers</strong> &ndash; Many varieties of both sweet and hot peppers change color from green to red or yellow as they ripen, and as much as possible this should be used as the guide for harvest for best flavor. For thin-walled varieties of hot chili peppers that are intended for drying, be sure to harvest before frost or the onset of the rainy season to prevent rotting of the fruit. If the fruit has not entirely ripened by this time pull up the entire plant and hang upside down in a cool, dimly lit place. Some of the remaining fruit on the plant will both ripen and dry under these conditions.</li>
-
-                        <li><strong>Tomatoes</strong> &ndash; Tomatoes are at their peak when they easily detach from the stem with only the slightest tug. But what to do as summer wanes, and you are still facing green globes on the vine? You can boost the ripening of the larger fruit by removing all flowers and the smaller, immature tomatoes, beginning about September 1st (these smallest of fruits won't have time to mature, in any case). An additional method is to start withholding water in late August/early September. This stress will cause the plant to ripen its fruit, thinking that it must hurry to ripen its seeds for reproduction. Watch out for late summer rains, however, which can cause these now more fragile vines to fall apart and become diseased. In the almost inevitable event of some green tomatoes: if they are full size at harvest, many will often ripen in the house (but search out some recipes for green tomatoes, just in case!).</li>
-                    </ul>
                 </div>
-            </div>
+            </div> <!-- row -->
 
             <div class="row planttable">
                 <div class="col-md-6">
-                    <h3>Trees, Shrubs and Fruit</h3>
 
-                    <p>This marks the beginning of the autumn planting season. While it is possible to plant trees and shrubs in the heat of summer, it is often easier on the plant if you wait until the temperatures cool somewhat in September or October. Also, if you have clay soil it is often easier to dig in after the first significant shower of the autumn.</p>
+                    {% component 'contenteditor' file="september-tips/row2column1.htm" %}
 
-                    <p>We always stock up on conifers this time of year. Many of these are quite unusual and this is the only time of year that we get some of them. Be sure to stop by frequently to see what we have in new arrivals.</p>
-
-                    <p>Caterpillar damage is at its height in autumn. While many of the less damaging leaf eaters can be ignored because the leaves are going to fall off soon, tent caterpillars can do extensive damage if ignored. A large population can kill major branches of mature trees. Common targets include birch, ash, and maple. Insecticidal sprays can keep the population low.</p>
-
-                    <p>Most trees and shrubs don&rsquo;t want to be fertilized this time of year. The only exception might be a little organic, slow-release food for newly planted evergreens, or those plants that have not been fed in a long time.</p>
                 </div>
 
                 <div class="col-md-6">
-                    <h3>Lawn Care</h3>
 
-                    <p>September is the month for renovating that summer-weary lawn. First, dethatch if you have not done so in the last year. This is done by thoroughly raking out the dead matter underneath the growing grass blades. Then, assess how full your lawn really is and make appropriate plans to reseed, overseed (applying seed to an existing but patchy lawn), or install sod.</p>
+                    {% component 'contenteditor' file="september-tips/row2column2.htm" %}
 
-                    <p>If your lawn is really patchy or almost nonexistent reseeding is best. Turn the soil and mix in some compost. Level it out and add seed, fertilizer, and lime. Cover the seed with a very thin layer of peat moss or fine compost (no big woody chunks). Keep moist and keep the weeds away; you should have a great lawn before winter.</p>
-
-                    <p>If you are over-seeding, then skip the bit about turning the soil, but a thin layer of compost on top is beneficial before laying the seed, fertilizer, and lime. If installing sod, turn and amend the soil beforehand, and fertilize and lime after installation. Link to our pdf, <a href="https://portlandnursery.com/docs/grasses/InstallingaSeedLawn.pdf" title="Installing a Seed Lawn" target="_blank">Installing a Seed Lawn</a>, to see these steps in detail.</p>
                 </div>
-            </div>
+            </div> <!-- row -->
         </div><!--/.col-md-12 -->
     </div><!-- End Row -->
 
     <div class="row" id="portfolio">
         {% partial "lists/list-seasonaltips" %}
-       </div><!--/#portfolio-->
-    </div><!-- End Container Content -->
+    </div><!--/#portfolio-->
+</div><!-- End Container Content -->
