@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision October 15, 2021 */
+Revision January 26, 2022 */
 
 
 #countdown {
@@ -839,8 +839,20 @@ img.pull-left {
 	height: auto;
 }
 
-.page-resources-custom-planting-plans img {
-	display: inline
+.page-resources-custom-planting-plans img,
+body.plants img {
+	display: inline;
+	margin-bottom: 0px
+}
+
+.numberCircle {
+    border-radius: 100%;
+    padding: 8px 12px 6px;
+    background: gold;
+}
+
+.page-resources-custom-planting-plans table td {
+	text-align: center;
 }
 
 .title-image img,

@@ -31,33 +31,33 @@
 
   <div id="mainnav">
      <ul class="navigation">
-	<li class="home"><a href="/">HOME</a></li>
- <li class="plants"><a href="/plants/">PLANTS</a>
+	<li class="home"><a href="">HOME</a></li>
+ <li class="plants"><a href="/plants">PLANTS</a>
        <ul>
-       <li><a href="/plants/">Main Plants Page</a></li>
-      	<li><a href="/plants/annuals/">Annuals</a></li>
-         <li><a href="/plants/bonsai/">Bonsai</a></li>
-          <li><a href="/plants/bulbs/">Bulbs</a></li>
-	     <li><a href="/plants/container-gardens/">Container Gardens</a></li>
-         <li><a href="/plants/fruits/">Fruits &amp; Berries</a></li>
-         <li><a href="/plants/grasses-bamboo/">Grasses &amp; Bamboo</a></li>
-         <li><a href="/plants/groundcovers/">Groundcovers</a></li>
-         <li><a href="/plants/houseplants/">Houseplants</a></li>
-         <li><a href="/plants/natives/">Northwest Natives</a></li>
-         <li><a href="/plants/perennials/">Perennials</a></li>
-         <li><a href="/plants/plant-combos/">Plant Combos</a></li>
-         <li><a href="/plants/roses/">Roses</a></li>
-         <li><a href="/plants/seeds/">Seeds</a></li>
-         <li><a href="/plants/shrubs-vines/">Shrubs</a></li>
-         <li><a href="/plants/trees/">Trees</a></li>
-         <li><a href="/plants/vegetables-herbs/">Vegetables &amp; Herbs</a></li>
+       <li><a href="/plants">Main Plants Page</a></li>
+      	<li><a href="/plants/annuals">Annuals</a></li>
+         <li><a href="/plants/bonsai">Bonsai</a></li>
+          <li><a href="/plants/bulbs">Bulbs</a></li>
+	     <li><a href="/plants/container-gardens">Container Gardens</a></li>
+         <li><a href="/plants/fruits">Fruits &amp; Berries</a></li>
+         <li><a href="/plants/grasses-bamboo">Grasses &amp; Bamboo</a></li>
+         <li><a href="/plants/groundcovers">Groundcovers</a></li>
+         <li><a href="/plants/houseplants">Houseplants</a></li>
+         <li><a href="/plants/natives">Northwest Natives</a></li>
+         <li><a href="/plants/perennials">Perennials</a></li>
+         <li><a href="/plants/plant-combos">Plant Combos</a></li>
+         <li><a href="/plants/roses">Roses</a></li>
+         <li><a href="/plants/seeds">Seeds</a></li>
+         <li><a href="/plants/shrubs-vines">Shrubs</a></li>
+         <li><a href="/plants/trees">Trees</a></li>
+         <li><a href="/plants/vegetables-herbs">Vegetables &amp; Herbs</a></li>
          <li><a href="/plants/shrubs-vines/vines.html">Vines</a></li>
-         <li class="last"><a href="/plants/water-plants/">Water Plants</a></li>
+         <li class="last"><a href="/plants/water-plants">Water Plants</a></li>
    </ul>
  </li>
- <li class="products"><a href="/products/">PRODUCTS</a>
+ <li class="products"><a href="/products">PRODUCTS</a>
      <ul>
-     <li><a href="/products/">Garden Products</a></li>
+     <li><a href="/products">Garden Products</a></li>
       	<li><a href="/products/amendments.html">Garden Amendments</a></li>
          <li><a href="/products/containers.html">Garden Containers</a></li>
          <li><a href="/products/decor.html">Garden Decor</a></li>
@@ -66,7 +66,7 @@
 		 <li class="last"><a href="/products/masonbees.html">Mason Bees</a></li>
      </ul>
   </li>
- <li class="locations"><a href="/locations/">ABOUT</a>
+ <li class="locations"><a href="/locations">ABOUT</a>
      <ul>
       	<li><a href="/locations/division.html">Division Street Store</a></li>
          <li><a href="/locations/stark.html">Stark Street Store</a></li>
@@ -74,7 +74,7 @@
          <li class="last"><a href="/locations/roots.html">Our Roots</a></li>
      </ul>
  </li>
- <li class="classes"><a href="/events/">CLASSES</a>
+ <li class="classes"><a href="/events">CLASSES</a>
      <ul>
 		 <li><a href="/events/january_events.html">January Classes</a></li>
          <li><a href="/events/february_events.html">February Classes</a></li>
@@ -102,7 +102,7 @@
          <li class="last"><a href="/events/food-preserving-recipes.html">Food Preserving Recipes</a></li>
               </ul>
  </li>
- <li class="tips"><a href="/tips/">GARDEN TIPS</a>
+ <li class="tips"><a href="/tips">GARDEN TIPS</a>
      <ul>
       	<li><a href="/tips/tips_january.html">January Tips</a></li>
          <li><a href="/tips/tips_february.html">February Tips</a></li>
@@ -136,8 +136,8 @@
      </ul>
 -->
  </li>
- <li class="landscape"><a href="/custom-planting-plans/">CUSTOM PLANTING PLANS</a> </li>
- <li class="services last"><a href="/service/">RESOURCES</a>
+ <li class="landscape"><a href="/custom-planting-plans">CUSTOM PLANTING PLANS</a> </li>
+ <li class="services last"><a href="/service">RESOURCES</a>
      <ul>
 	      <li><a class="active" href="/service/index.html">Delivery Services</a></li>
 		  <li><a href="/service/potting-services.html">Container Potting Services</a></li>
@@ -188,41 +188,41 @@
 <div id="nav">
 
    <ul>
-        <li class="annuals"><a href="/plants/annuals/">Annuals</a></li>
+        <li class="annuals"><a href="/plants/annuals">Annuals</a></li>
 
-        <li class="bonsai"><a href="/plants/bonsai/">Bonsai</a></li>
+        <li class="bonsai"><a href="/plants/bonsai">Bonsai</a></li>
 
-         <li class="bulbs"><a href="/plants/bulbs/">Bulbs</a></li>
+         <li class="bulbs"><a href="/plants/bulbs">Bulbs</a></li>
 
-        <li class="containers"><a href="/plants/container-gardens/">Container Gardens</a></li>
+        <li class="containers"><a href="/plants/container-gardens">Container Gardens</a></li>
 
-        <li class="fruits"><a href="/plants/fruits/">Fruits &amp; Berries</a></li>
+        <li class="fruits"><a href="/plants/fruits">Fruits &amp; Berries</a></li>
 
-       <li class="grasses"><a href="/plants/grasses-bamboo/">Grasses &amp; Bamboo</a></li>
+       <li class="grasses"><a href="/plants/grasses-bamboo">Grasses &amp; Bamboo</a></li>
 
-        <li class="groundcovers"><a href="/plants/groundcovers/">Groundcovers</a></li>
+        <li class="groundcovers"><a href="/plants/groundcovers">Groundcovers</a></li>
 
-        <li class="houseplants"><a href="/plants/houseplants/">Houseplants</a></li>
+        <li class="houseplants"><a href="/plants/houseplants">Houseplants</a></li>
 
-        <li class="natives"><a href="/plants/natives/">Northwest Natives</a></li>
+        <li class="natives"><a href="/plants/natives">Northwest Natives</a></li>
 
-        <li class="perennials"><a href="/plants/perennials/">Perennials</a></li>
+        <li class="perennials"><a href="/plants/perennials">Perennials</a></li>
 
-        <li class="combos"><a href="/plants/plant-combos/">Plant Combos</a></li>
+        <li class="combos"><a href="/plants/plant-combos">Plant Combos</a></li>
 
-       <li class="combo"><a href="/plants/roses/">Roses</a></li>
+       <li class="combo"><a href="/plants/roses">Roses</a></li>
 
-        <li class="seeds"><a href="/plants/seeds/">Seeds</a></li>
+        <li class="seeds"><a href="/plants/seeds">Seeds</a></li>
 
-        <li class="shrubs"><a href="/plants/shrubs-vines/">Shrubs</a></li>
+        <li class="shrubs"><a href="/plants/shrubs-vines">Shrubs</a></li>
 
         <li class="shrubs"><a href="/plants/shrubs-vines/vines.html">Vines</a></li>
 
-        <li class="trees"><a href="/plants/trees/">Trees</a></li>
+        <li class="trees"><a href="/plants/trees">Trees</a></li>
 
-        <li class="veggies"><a href="/plants/vegetables-herbs/">Vegetables &amp; Herbs</a></li>
+        <li class="veggies"><a href="/plants/vegetables-herbs">Vegetables &amp; Herbs</a></li>
 
-         <li class="water-plants"><a href="/plants/water-plants/">Water Plants</a></li>
+         <li class="water-plants"><a href="/plants/water-plants">Water Plants</a></li>
     </ul>
 
 </div>
