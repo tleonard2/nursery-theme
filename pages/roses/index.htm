@@ -4,6 +4,8 @@ layout = "default"
 meta_title = "Roses at Portland Nursery"
 meta_description = "A full range of potted, bare-root Roses for Portland, Vancouver"
 is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
 
 [siteSearchInclude]
 
@@ -11,7 +13,7 @@ is_hidden = 0
 ==
 <div class="container">
         <div class="title-block">
-            <div class="title-image"><img class="img-responsive" src="https://portlandnursery.com/plants/images/rose/rosehd.jpg" alt="Roses" title="Roses"></div>{% partial 'breadcrumbs/breadcrumbsplants' %}
+            <div class="title-image"> {% component 'contenteditor' file="rose-page/rose-banner.htm" %}</div>{% partial 'breadcrumbs/breadcrumbsplants' %}
         </div>
     </div><!-- container -->
 
@@ -24,47 +26,41 @@ is_hidden = 0
             </div><!-- col-md-6 left-inner -->
 
             <div class="col-md-6">
-                   <div class="wow fadeInDown">
+                <div class="wow fadeInDown">
                     <div class="accordion">
                         <div class="panel-group" id="accordion1">
 
-<!--
-	                        <div class="panel panel-default">
-                            <div class="panel-heading  active">
+                           <div class="panel panel-default">
+                            <div class="panel-heading active">
                               <h3 class="panel-title">
                                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
-                                 Rose Festival Rose "Burst of Hope"
-                                  <i class="fa  fa-angle-down pull-right"></i>
+
+                                 {% component 'contenteditor' file="rose-page/collapse1title.htm" %}
+
+                                  <i class="tips fa fa-angle-down pull-right"></i>
                                 </a>
                               </h3>
                             </div>
                             <div id="collapseOne1" class="panel-collapse collapse in">
                               <div class="panel-body">
-                              <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/rose/Burst-of-Hope750.jpg" alt="roses"></figure>
 
-                      <h3>Portland Rose Festival 2021 Collectors Rose</h3>
+							  {% component 'contenteditor' file="rose-page/collapse1.htm" %}
 
-<p>The Portland Rose Festival Foundation has introduced its 2021 Official Rose, “Burst of Hope,” in partnership with Portland Nursery. Following up on its theme for the new year: 'Hope Reigns,' the Festival is introducing this colorful single stem rose with large pink and yellow striped blooms to add a "Burst of Hope" to every garden.</p>
-
-<p>This unique Grandiflora features a strong fruity and citrus fragrance, with lovely medium-long stems and dark glossy green foliage. This medium-tall, large-flower rose is another of hybridizer Christian Bédard's creations introduced by grower Weeks Roses.</p>
-
-<p>“Burst of Hope” is available exclusively at the Portland Nursery beginning in early February. The cost is $29.99 with $2 of each sale going to the nonprofit, Portland Rose Festival Foundation.</p>
 	                            </div>
                             </div>
                           </div>
--->
 
                           <div class="panel panel-default">
-                            <div class="panel-heading active">
+                            <div class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
                                  Rose Classifications
                                   <i class="fa  fa-angle-down pull-right"></i>
                                 </a>
                               </h3>
                             </div>
 
-                            <div id="collapseOne1" class="panel-collapse collapse in">
+                            <div id="collapseTwo1" class="panel-collapse collapse in">
                               <div class="panel-body">
 
                                           <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/rose/EarthAngel750.jpg" alt="Earth Angel" title="Roses" >
@@ -82,13 +78,13 @@ is_hidden = 0
                           <div class="panel panel-default">
                             <div class="panel-heading">
                               <h3 class="panel-title">
-                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
                                   Rose Terms
                                   <i class="fa  fa-angle-down pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseTwo1" class="panel-collapse collapse">
+                            <div id="collapseThree1" class="panel-collapse collapse">
                               <div class="panel-body">
                               <figure><img class="img-responsive" src="https://portlandnursery.com/plants/images/rose/pink-rose.jpg" alt="roses"></figure>
 									<p>Learning the lingo will help you when shopping.</p>

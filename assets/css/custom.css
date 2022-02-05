@@ -1,6 +1,6 @@
 /* Custom
 *******************************
-Revision January 26, 2022 */
+Revision February 4, 2022 */
 
 
 #countdown {
@@ -30,13 +30,14 @@ ol.tiplist strong {
 
 /* Homepage
 ------------------------------------ */
-.whatshappening h2 {
-	margin: 0 auto 15px auto;
-	text-align: center;
+#happeningstitle h1 {
+	text-align: center
 }
 
-.whatshappening img {
-	margin-top: 10px
+#happeningstitle img {
+	margin-top: 10px;
+	max-height: 300px;
+	width: auto
 }
 
 /* Happenings
